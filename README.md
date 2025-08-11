@@ -42,7 +42,7 @@ The dataset contains **10,000 session records** with details such as session len
 - **Strong positive correlation (0.78)** between `AI_AssistanceLevel` and `SatisfactionRating`.
 - Minimal correlation between session length and satisfaction.
 
-![Correlation Heatmap](heatmap.jpg)
+
 <img width="800" height="600" alt="plot3_correlation_heatmap" src="https://github.com/user-attachments/assets/8c69ff82-a0e9-47be-9825-00bbf46387b7" />
 
 ---
@@ -51,7 +51,7 @@ The dataset contains **10,000 session records** with details such as session len
 - Sessions peaked in **August 2024** (~900 sessions) and **January 2025** (~890 sessions).
 - Seasonal dips are observed in **June** and **December**, possibly due to academic breaks.
 
-![Monthly Session Count](monthly_trend.jpg)
+
 <img width="800" height="500" alt="plot2_monthly_sessions" src="https://github.com/user-attachments/assets/cfd0937f-730d-47e6-9682-95f43d33443f" />
 
 ---
@@ -61,7 +61,6 @@ The dataset contains **10,000 session records** with details such as session len
 - **Lowest satisfaction**: Research (~3.3/5 average rating).
 - All task types maintain ratings above 3.3, showing overall positive user experience.
 
-![Satisfaction by Task](task_satisfaction.jpg)
 <img width="800" height="500" alt="plot1_tasktype_vs_satisfaction" src="https://github.com/user-attachments/assets/ed7dfa43-c642-4b81-b79c-2aea437a978b" />
 
 ---
