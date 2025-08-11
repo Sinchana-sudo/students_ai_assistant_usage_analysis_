@@ -1,13 +1,11 @@
-# 📊 AI Assistant Usage in Student Life
+ AI Assistant Usage in Student Life
 
-## Overview
+Overview
 This project analyzes the usage patterns, satisfaction levels, and correlations of AI assistance among students across different academic disciplines. Using both visual analytics and statistical correlations, it aims to understand how AI-powered tools impact student productivity, engagement, and satisfaction.
 
 The dataset contains **10,000 session records** with details such as session length, number of prompts, task type, AI assistance level, and satisfaction ratings.
 
----
-
-## 📂 Project Files
+Project Files
 - **`ai_assistant_usage_student_life.csv`** → Raw dataset of AI assistant usage by students.
 - **`final report.ipynb`** → Jupyter Notebook containing data cleaning, analysis, and visualizations.
 - **`final.pbix`** → Power BI dashboard for interactive exploration.
@@ -16,9 +14,7 @@ The dataset contains **10,000 session records** with details such as session len
   - Monthly session count trend
   - Average satisfaction by task type
 
----
-
-## 📑 Dataset Description
+Dataset Description
 | Column Name         | Description |
 |---------------------|-------------|
 | SessionID           | Unique identifier for each session |
@@ -56,24 +52,21 @@ The dataset contains **10,000 session records** with details such as session len
 
 ---
 
-### 3. Satisfaction by Task Type
+ 3. Satisfaction by Task Type
 - **Highest satisfaction**: Homework Help & Coding (~3.4/5 average rating).
 - **Lowest satisfaction**: Research (~3.3/5 average rating).
 - All task types maintain ratings above 3.3, showing overall positive user experience.
 
 <img width="800" height="500" alt="plot1_tasktype_vs_satisfaction" src="https://github.com/user-attachments/assets/ed7dfa43-c642-4b81-b79c-2aea437a978b" />
 
----
-
-## 📌 Conclusion
+Conclusion
 - Students who receive higher levels of AI assistance tend to report **greater satisfaction**.
 - Session length is highly tied to the number of prompts, suggesting more engagement leads to longer sessions.
 - While satisfaction is generally high across task types, research tasks could benefit from more tailored AI support.
 - Seasonal trends highlight peaks during active academic months and drops during breaks.
 
----
-
-## 🚀 How to Use
+ How to Use
 1. **View the Power BI dashboard (`final.pbix`)** for interactive exploration.
 2. **Run the Jupyter Notebook (`final report.ipynb`)** to reproduce the analysis.
 3. **Explore `ai_assistant_usage_student_life.csv`** for raw data insights.
+4.**For excel file(`final_draft_ai_usage.xlsx`)** for cleaned data
